@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- generator="Joomla! - Open Source Content Management" -->
+<feed xmlns="http://www.w3.org/2005/Atom"  xml:lang="en-gb">
+	<title type="text">Good to know</title>
+	<subtitle type="text"></subtitle>
+	<link rel="alternate" type="text/html" href="http://www.belgalantereya.by"/>
+	<id>http://www.belgalantereya.by/en/good-to-know</id>
+	<updated>2021-06-15T15:58:30+00:00</updated>
+	<author>
+		<name>Белгалантерея</name>
+		<email>market@belgalantereja.bn.by</email>
+	</author>
+	<generator uri="https://www.joomla.org">Joomla! - Open Source Content Management</generator>
+	<link rel="self" type="application/atom+xml" href="http://www.belgalantereya.by/en/good-to-know?format=feed&amp;type=atom"/>
+	<entry>
+		<title>Bamboo Textiles</title>
+		<link rel="alternate" type="text/html" href="http://www.belgalantereya.by/en/good-to-know/27-bamboo-textiles"/>
+		<published>2014-06-10T12:06:00+00:00</published>
+		<updated>2014-06-10T12:06:00+00:00</updated>
+		<id>http://www.belgalantereya.by/en/good-to-know/27-bamboo-textiles</id>
+		<author>
+			<name>Super User</name>
+			<email>market@belgalantereja.bn.by</email>
+		</author>
+		<summary type="html">&lt;p&gt;&lt;img src=&quot;http://www.belgalantereya.by/images/bambuk.jpg&quot; /&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;line-height: 1.3em;&quot;&gt;Since ancient times, bamboo was used for construction, decoration and manufacture of various products used in everyday life. In the late 20th century bamboo experienced rebirth, as Japanese scientists managed to create it as a new innovative material – bamboo fiber, which became widely used in the textile industry for the manufacture of fabrics. Today bamboo fabric is the most promising material for making clothes, underwear, pillows, blankets, towels and other knitted fabrics made ​​of bamboo.&lt;/span&gt;&lt;/p&gt;
+</summary>
+		<content type="html">&lt;p&gt;&lt;img src=&quot;http://www.belgalantereya.by/images/bambuk.jpg&quot; /&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;line-height: 1.3em;&quot;&gt;Since ancient times, bamboo was used for construction, decoration and manufacture of various products used in everyday life. In the late 20th century bamboo experienced rebirth, as Japanese scientists managed to create it as a new innovative material – bamboo fiber, which became widely used in the textile industry for the manufacture of fabrics. Today bamboo fabric is the most promising material for making clothes, underwear, pillows, blankets, towels and other knitted fabrics made ​​of bamboo.&lt;/span&gt;&lt;/p&gt;
+</content>
+		<category term="Good to know" />
+	</entry>
+	<entry>
+		<title>Benefits of household soap</title>
+		<link rel="alternate" type="text/html" href="http://www.belgalantereya.by/en/good-to-know/28-benefits-of-household-soap"/>
+		<published>2014-06-02T15:31:06+00:00</published>
+		<updated>2014-06-02T15:31:06+00:00</updated>
+		<id>http://www.belgalantereya.by/en/good-to-know/28-benefits-of-household-soap</id>
+		<author>
+			<name>Super User</name>
+			<email>market@belgalantereja.bn.by</email>
+		</author>
+		<summary type="html">&lt;p&gt;&lt;img src=&quot;http://www.belgalantereya.by/images/hozsoap.jpg&quot; /&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;line-height: 1.3em;&quot;&gt;Household soap is one of the most effective means of hygiene due to its microbiological properties. Benefits of household soap has long been known. After all, this yellow-brown bar of soap is able to wash not only bacteria, but even fuel. This soap washes even the oil paint. Especially for household soap of 72% fat concentration.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Household soap remains the only antiallergic organic product of modern chemistry. Composition of household soap is very simple. It only consists of fatty acids and sodium. And based on this, by introducing chemical dyes and perfumes, ​​more soap is made.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+</summary>
+		<content type="html">&lt;p&gt;&lt;img src=&quot;http://www.belgalantereya.by/images/hozsoap.jpg&quot; /&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;line-height: 1.3em;&quot;&gt;Household soap is one of the most effective means of hygiene due to its microbiological properties. Benefits of household soap has long been known. After all, this yellow-brown bar of soap is able to wash not only bacteria, but even fuel. This soap washes even the oil paint. Especially for household soap of 72% fat concentration.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Household soap remains the only antiallergic organic product of modern chemistry. Composition of household soap is very simple. It only consists of fatty acids and sodium. And based on this, by introducing chemical dyes and perfumes, ​​more soap is made.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+</content>
+		<category term="Good to know" />
+	</entry>
+</feed>
