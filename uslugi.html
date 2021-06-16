@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru-ru" lang="ru-ru" dir="ltr" >
-<head> 
+<head>
 	<!--<base href="http://www.belgalantereya.by/uslugi" />-->
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<meta name="author" content="Super User" />
 	<title>Услуги</title>
-	<link href="http://www.belgalantereya.by/templates/belgalantereya/css/style.css" rel="stylesheet" type="text/css" media="screen,projection" />
-	<link href="http://www.belgalantereya.by/modules/mod_feedback/css/style.css" rel="stylesheet" type="text/css" media="screen,projection" />
-	<script src="http://www.belgalantereya.by/templates/belgalantereya/js/jquery.js" type="text/javascript"></script>
-	<script src="http://www.belgalantereya.by/templates/belgalantereya/js/touchcarousel.js" type="text/javascript"></script>
+	<link href="assets/style.css" rel="stylesheet" type="text/css" media="screen,projection" />
+	<link href="assets/style2.css" rel="stylesheet" type="text/css" media="screen,projection" />
+	<script src="assets/jquery.js" type="text/javascript"></script>
+	<script src="assets/touchcarousel.js" type="text/javascript"></script>
+	<script src="assets/touch.js" type="text/javascript"></script>
 
 </head>
 <body><div style="position:absolute;left:-2000px"><a href='http://www.belgalantereya.by/belgalantereya.bytestnew-index'>belgalantereya.by</a><a href='http://www.belgalantereya.by/belgalantereya.bytestnew-map1'>sitemap</a></div>
@@ -37,7 +38,7 @@
 		</div>
 	</div>
 	</div>
-	
+
 	<div id="menu">
 		<div class="wrapper">
 			<ul class="nav menu">
@@ -45,31 +46,31 @@
 
 		</div>
 	</div>
-	
+
 	<div id="main">
 		<div class="wrapper">
-		
-			
-			
+
+
+
 			<div id="content">
 
-								
+
 <div class="breadcrumb">
 	<a href="index.html" class="pathway">Главная</a><span class="divider"> / </span><span class="active">Услуги</span></div>
 
-								
+
 				<div id="system-message-container">
 	</div>
 
 				<div class="article">
 
 	<h1>Услуги</h1>
-	
-		
-						
-	
-		
-							
+
+
+
+
+
+
 	<p>«ОАО «Белгалантерея» предлагает оптовым покупателям следующие виды услуг:</p>
 <p>- предоставление документов, подтверждающих&nbsp; качество товара <br />- комплектация и упаковка мелких партий товаров<br />- погрузка товара на транспорт покупателя<br />- доставка товара покупателю транспортом ОАО «Белгалантерея» по г. Минску и Минской области<br />- замена или возврат бракованного товара.</p>
 <table border="0">
@@ -82,10 +83,10 @@
 </tbody>
 </table>
 <p>Всем заинтересованным компаниям мы предлагаем:&nbsp;</p>
-<p>- сдаем в аренду офисные и складские помещения по адресу г. Минск, ул. Ботаническая, 5а<br />- транспортные услуги по доставке грузов по территории РБ. Подробную информацию об ответственном хранении и аренде помещений можно получить по тел. 282-82-95</p> 
-	
-			
-		
+<p>- сдаем в аренду офисные и складские помещения по адресу г. Минск, ул. Ботаническая, 5а<br />- транспортные услуги по доставке грузов по территории РБ. Подробную информацию об ответственном хранении и аренде помещений можно получить по тел. 282-82-95</p>
+
+
+
 	<div class="hr"></div>
 </div>
 
@@ -93,7 +94,7 @@
 
 
 
-				
+
 <div class="form">
 	<table>
 		<tr>
@@ -111,7 +112,7 @@ jQuery(function($) {
 		return false;
 	});
 	$('body').keyup(function(e) {
-        if(e.which===27){ 
+        if(e.which===27){
 			$('#feedback').hide();
 		}
 	});
@@ -132,7 +133,7 @@ jQuery(function($) {
 		$('#feedback a.submit_btn').css({opacity:0});
 		e.preventDefault();
 		var form = document.forms.formfeed;
-		var formData = new FormData(form); 
+		var formData = new FormData(form);
 		var xhr = new XMLHttpRequest();
 		xhr.open("POST", "http://www.belgalantereya.by/modules/mod_feedback/form.php");
 		xhr.onreadystatechange = function() {
@@ -246,17 +247,17 @@ jQuery(function($) {
 			autoplay:true,
 			scrollbar:false,
 			autoplayStopAtAction:false,
-			directionNav:true, 
-			scrollToLast:false  
+			directionNav:true,
+			scrollToLast:false
 		});
 	});
 </script>
 
-				
+
 			</div>
 		</div>
 	</div>
-	
+
 	<div id="footer">
 		<div class="wrapper">
 			<div class="footer">ООО “Белгалантерея”</br>info@belgalantereya.by</div>

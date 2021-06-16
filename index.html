@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru-ru" lang="ru-ru" dir="ltr" >
-<head> 
+<head>
 	<!--<base href="http://www.belgalantereya.by/" />-->
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<title>Главная</title>
 	<link href="index%EF%B9%96format=feed&amp;type=rss.rss" rel="alternate" type="application/rss+xml" title="RSS 2.0" />
 	<link href="index%EF%B9%96format=feed&amp;type=atom" rel="alternate" type="application/atom+xml" title="Atom 1.0" />
-	<link href="http://www.belgalantereya.by/templates/belgalantereya/css/style.css" rel="stylesheet" type="text/css" media="screen,projection" />
-	<link href="http://www.belgalantereya.by/modules/mod_feedback/css/style.css" rel="stylesheet" type="text/css" media="screen,projection" />
-	<script src="http://www.belgalantereya.by/templates/belgalantereya/js/jquery.js" type="text/javascript"></script>
-	<script src="http://www.belgalantereya.by/templates/belgalantereya/js/touchcarousel.js" type="text/javascript"></script>
-	<script src="http://www.belgalantereya.by/templates/belgalantereya/js/touch.js" type="text/javascript"></script>
+	<link href="assets/style.css" rel="stylesheet" type="text/css" media="screen,projection" />
+	<link href="assets/style2.css" rel="stylesheet" type="text/css" media="screen,projection" />
+	<script src="assets/jquery.js" type="text/javascript"></script>
+	<script src="assets/touchcarousel.js" type="text/javascript"></script>
+	<script src="assets/touch.js" type="text/javascript"></script>
 	<script type="text/javascript">
 jQuery(function($){$(".touchslider").touchSlider({autoplay:true,delay:5000});});
 	</script>
@@ -42,7 +42,7 @@ jQuery(function($){$(".touchslider").touchSlider({autoplay:true,delay:5000});});
 		</div>
 	</div>
 	</div>
-	
+
 	<div id="menu">
 		<div class="wrapper">
 			<ul class="nav menu">
@@ -50,12 +50,12 @@ jQuery(function($){$(".touchslider").touchSlider({autoplay:true,delay:5000});});
 
 		</div>
 	</div>
-	
+
 	<div id="main">
 		<div class="wrapper">
-		
+
 						<div id="banner">
-				
+
 <div class="touchslider">
 	<div class="touchslider-viewport" style="width:885px;height:255px;overflow:hidden">
 		<div>
@@ -147,7 +147,7 @@ jQuery(function($){$(".touchslider").touchSlider({autoplay:true,delay:5000});});
 
 		</div>
 	</div>
-	
+
 	<div class="touchslider-paginat">
 					<a class="touchslider-nav-item touchslider-nav-item-current"></a>
 					<a class="touchslider-nav-item "></a>
@@ -158,14 +158,14 @@ jQuery(function($){$(".touchslider").touchSlider({autoplay:true,delay:5000});});
 					<a class="touchslider-nav-item "></a>
 					<a class="touchslider-nav-item "></a>
 			</div>
-	
+
 </div>
 			</div>
-			
-			
+
+
 			<div id="content">
 
-								
+
 				<div id="system-message-container">
 	</div>
 
@@ -175,7 +175,7 @@ jQuery(function($){$(".touchslider").touchSlider({autoplay:true,delay:5000});});
 
 </div>
 
-				
+
 
 <div class="custom"  >
 	<table border="0">
@@ -210,7 +210,7 @@ jQuery(function($) {
 		return false;
 	});
 	$('body').keyup(function(e) {
-        if(e.which===27){ 
+        if(e.which===27){
 			$('#feedback').hide();
 		}
 	});
@@ -231,7 +231,7 @@ jQuery(function($) {
 		$('#feedback a.submit_btn').css({opacity:0});
 		e.preventDefault();
 		var form = document.forms.formfeed;
-		var formData = new FormData(form); 
+		var formData = new FormData(form);
 		var xhr = new XMLHttpRequest();
 		xhr.open("POST", "http://www.belgalantereya.by/modules/mod_feedback/form.php");
 		xhr.onreadystatechange = function() {
@@ -296,7 +296,7 @@ jQuery(function($) {
 	<h3><span>Новости</span></h3>
 
 	<div align="right"><a href="novosti.html">все новости</a></div>
-	
+
 	<ul>
 			<li>
 			<div class="date">04.06.2021</div>
@@ -319,7 +319,7 @@ jQuery(function($) {
 </div>
 		</li>
 		</ul>
-	
+
 </div>
 <h3 class="carousel">Мы – дилеры  крупных предприятий-производителей РБ:</h3>
 
@@ -375,17 +375,17 @@ jQuery(function($) {
 			autoplay:true,
 			scrollbar:false,
 			autoplayStopAtAction:false,
-			directionNav:true, 
-			scrollToLast:false  
+			directionNav:true,
+			scrollToLast:false
 		});
 	});
 </script>
 
-				
+
 			</div>
 		</div>
 	</div>
-	
+
 	<div id="footer">
 		<div class="wrapper">
 			<div class="footer">ООО “Белгалантерея”</br>info@belgalantereya.by</div>
